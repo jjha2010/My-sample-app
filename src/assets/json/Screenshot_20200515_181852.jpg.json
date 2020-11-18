@@ -1,0 +1,39 @@
+{
+  "title": "Screenshot_20200515_181852.jpg",
+  "description": "",
+  "imageViews": "0",
+  "creationTime": {
+    "timestamp": "1589549181",
+    "formatted": "May 15, 2020, 1:26:21 PM UTC"
+  },
+  "modificationTime": {
+    "timestamp": "1599027319",
+    "formatted": "Sep 2, 2020, 6:15:19 AM UTC"
+  },
+  "geoData": {
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "altitude": 0.0,
+    "latitudeSpan": 0.0,
+    "longitudeSpan": 0.0
+  },
+  "geoDataExif": {
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "altitude": 0.0,
+    "latitudeSpan": 0.0,
+    "longitudeSpan": 0.0
+  },
+  "photoTakenTime": {
+    "timestamp": "1589546932",
+    "formatted": "May 15, 2020, 12:48:52 PM UTC"
+  },
+  "googlePhotosOrigin": {
+    "mobileUpload": {
+      "deviceFolder": {
+        "localFolderName": "Screenshots"
+      },
+      "deviceType": "ANDROID_PHONE"
+    }
+  }
+}
