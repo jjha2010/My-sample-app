@@ -1,5 +1,5 @@
 import { Component,OnInit } from '@angular/core';
-import sampleData from '../assets/data.json';
+//import sampleData from '../assets/data.json';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -10,7 +10,7 @@ import sampleData from '../assets/data.json';
 
 export class AppComponent  {
   title = 'My-sample-app';
-  Image:any = sampleData;
+  //Image:any = sampleData;
  
 }
 
