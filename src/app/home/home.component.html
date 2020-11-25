@@ -1,14 +1,31 @@
-  
+<style>
+div {
+  display: flex;
+  flex-wrap: wrap;
+}
+img {
+  height: 200px;
+  flex-grow: 1;
+}
+</style>
+
 <div><h1>home page</h1>
 </div>
+<body>
+  <section>
 
+ 
 <div class="row">
     <ul>
-      <li *ngFor="let img of Image" >
-        <img src="{{img.url}}" class="tn" width="200" height="160">
+      <div *ngFor="let img of Image" >
+        <a [routerLink]="" class="nav-link" (click)="setSelectedImage(img)">
+        <div class="flex-wrap">
+          <img src="{{img.url}}" class="tn" width="200" height="160">
         
-      </li>
+        </div>
+      </a>
+      </div>
     </ul>
   </div>
-
-  
+</section>
+</body>
