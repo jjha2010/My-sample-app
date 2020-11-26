@@ -18,7 +18,7 @@ img {
 <div class="row">
     <ul>
       <div *ngFor="let img of Image" >
-        <a [routerLink]="" class="nav-link" (click)="setSelectedImage(img)">
+        <a [routerLink]="" class="nav-link" (click)="setSelectedImage(img)"><br><br>
         <div class="flex-wrap">
           <img src="{{img.url}}" class="tn" width="200" height="160">
         

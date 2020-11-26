@@ -17,6 +17,9 @@ export class HomeComponent implements OnInit {
   setSelectedImage(img:any){
     this.viewDetails=true;
     this.selectedImage=img;
+
+    //var txt="";
+    //txt += "Name: " +this.selectedImage.Name;
   }
 
 }
